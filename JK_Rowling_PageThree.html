@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Guestbook</title>
+	<link rel="stylesheet" type="text/css" href="css/JK_Rowling_CommonStyles.css">
+	<style type="text/css">
+		img
+		{
+			width:20px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+	<a href="JK_Rowling_PageOne.html">Home</a> |
+	<a href="JK_Rowling_PageTwo.html">Works</a> |
+	<a href="JK_Rowling_PageThree.html">Guestbook</a> |
+	<a href="JK_Rowling_PageFour.html">Comments Section</a>
+	</nav>
+	<h1>Guestbook</h1>
+	<form id="form">
+		<label for="firstName">First Name:</label>
+		<input type="text" name="fName" id="firstName"> <br>
+		<label for="lastName">Last Name:</label>
+		<input type="text" name="lName" id="lastName"> <br>
+		<label for="email">Email Address:</label>
+		<input type="email" name="emailaddress" id="email" placeholder="example@example.ca"> <br>
+		<label for="Rate My Website">Rate my website:</label><br>
+		<input type="radio" name=ratings value="4"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><br>
+		<input type="radio" name="ratings" value="3"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><br>
+		<input type="radio" name="ratings" value="2"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star"><br>
+		<input type="radio" name="ratings" value="1"><img src="images/glitter_gold_star.jpg" title="glitter gold star" alt="rating glitter gold star">
+		<br>
+		<label for="Feedback">Feedback:</label><br>
+		<textarea cols="50" rows="10">
+		Please type feedback here...	
+		</textarea><br>
+		<input type="submit" name="submit" value="Submit Entry" onclick="thankyou();">
+		<input type="reset" name="reset" value="Clear Entry">
+	</form>	
+	<script type="text/javascript" src="js/projectScript.js"></script>
+</body>
+</html>
