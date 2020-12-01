@@ -1,0 +1,46 @@
+body 
+{
+	background-color:#66ccff;
+	font-family:verdana;
+}
+
+h1
+{
+	text-align:center;
+	font-family:arial;
+	font-style:italic;
+	color:purple; 
+	background-color:#ffffff;
+}
+
+#form
+{
+	margin:auto;
+	width:50%;
+}
+
+#form input[type=text]:focus
+{
+	background-color:lightblue;
+}
+
+#form input[type=email]:focus 
+{
+	background-color:lightblue;
+}
+
+#form input[type=submit]
+{
+	text-transform:uppercase;
+}
+		
+#form input[type=reset]
+{
+	text-transform:uppercase;
+}
+
+p 
+{
+	background-color:#ffffff;
+	text-align:center;
+}
